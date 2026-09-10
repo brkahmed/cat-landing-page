@@ -51,4 +51,10 @@ body {
 
 .hero {
   background: #1f2937;
+  display: flex;
+  padding: 36px 2vw;
+}
+
+.hero-image {
+  max-width: 300px;
 }
