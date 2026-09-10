@@ -61,6 +61,14 @@ body {
 .hero {
   background: #1f2937;
   display: flex;
+  gap: 16px;
+  padding: 24px 8vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 700px;
 }
 
 .hero-heading {
@@ -73,5 +81,20 @@ body {
   font-size: 18px;
   color: #e5e7eb;
   margin: 16px 0;
-  max-width: 800px;
+}
+
+.hero-image {
+  min-width: 0;
+  max-height: 400px;
+  width: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image {
+    max-height: none;
+  }
 }
