@@ -10,6 +10,15 @@ img {
   height: auto;
 }
 
+button {
+  border: none;
+  padding: 4px 16px;
+  border-radius: 4px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
