@@ -134,11 +134,29 @@ body {
 }
 
 .info-list li {
-  max-width: 200px;
+  width: 250px;
 }
 
 .info-list img {
   border-radius: 8px;
   aspect-ratio: 1;
   margin-bottom: 16px;
+}
+
+.quote {
+  padding: 36px 8vw;
+  background: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quote-text {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: 500;
+  white-space: nowrap;
 }
