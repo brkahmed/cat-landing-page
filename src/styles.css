@@ -14,3 +14,28 @@ body {
 .footer {
   background: #1f2937;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 2vw;
+  flex-wrap: wrap;
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
