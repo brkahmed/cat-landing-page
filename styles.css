@@ -35,7 +35,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 2vw;
+  padding: 16px 8vw;
+  gap: 8px;
   flex-wrap: wrap;
   background: #1f2937;
 }
