@@ -17,6 +17,7 @@ button {
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: 600;
+  cursor: pointer;
 }
 
 body {
