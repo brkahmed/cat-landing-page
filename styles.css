@@ -39,7 +39,7 @@ body {
 }
 
 .header-links a {
-  color: white;
+  color: #e5e7eb;
   text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #e5e7eb;
   padding: 24px;
   background: #1f2937;
 }
@@ -61,9 +61,17 @@ body {
 .hero {
   background: #1f2937;
   display: flex;
-  padding: 36px 2vw;
 }
 
-.hero-image {
-  max-width: 300px;
+.hero-heading {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 16px 0;
+  max-width: 800px;
 }
