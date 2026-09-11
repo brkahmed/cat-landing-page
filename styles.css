@@ -160,3 +160,32 @@ body {
   font-weight: 500;
   white-space: nowrap;
 }
+
+.signup {
+  padding: 36px 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  background: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 64px;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.signup-text {
+  font-weight: 300;
+}
+
+.signup button {
+  border: 2px solid #f9faf8;
+}
