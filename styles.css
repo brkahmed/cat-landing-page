@@ -12,12 +12,13 @@ img {
 
 button {
   border: none;
-  padding: 4px 16px;
-  border-radius: 4px;
+  padding: 8px 24px;
+  border-radius: 8px;
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: 600;
   cursor: pointer;
+  font-size: larger;
 }
 
 body {
@@ -186,6 +187,10 @@ body {
   font-weight: 300;
 }
 
+.signup-container > div {
+  flex-grow: 3;
+}
 .signup button {
   border: 2px solid #f9faf8;
+  flex-grow: 1;
 }
